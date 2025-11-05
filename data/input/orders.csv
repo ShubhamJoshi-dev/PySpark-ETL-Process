@@ -1,0 +1,17 @@
+order_id,customer_id,product_name,quantity,price,order_date,status
+101,1,Laptop,1,1200.00,2023-06-01,completed
+102,2,Mouse,2,25.50,2023-06-02,completed
+103,1,Keyboard,1,75.00,2023-06-03,completed
+104,3,Monitor,2,350.00,2023-06-04,pending
+105,4,Laptop,1,1200.00,2023-06-05,completed
+106,5,Headphones,1,150.00,2023-06-06,cancelled
+107,2,USB Cable,3,15.00,2023-06-07,completed
+108,6,Laptop,1,1200.00,2023-06-08,completed
+109,7,Mouse,1,25.50,2023-06-09,completed
+110,8,Keyboard,2,75.00,2023-06-10,pending
+111,3,Webcam,1,89.99,2023-06-11,completed
+112,9,Monitor,1,350.00,2023-06-12,completed
+113,10,Laptop,1,1200.00,2023-06-13,completed
+114,1,Mouse,1,25.50,2023-06-14,completed
+115,4,Headphones,2,150.00,2023-06-15,completed
+
