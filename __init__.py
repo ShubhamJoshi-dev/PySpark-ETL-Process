@@ -1,8 +1,8 @@
-from .config import ETLConfig
-from .etl_pipeline import ETLPipeline
-from .extractors import DataExtractor
-from .transformers import DataTransformer
-from .loaders import DataLoader
+from Config.config import ETLConfig
+from ETL.etl_pipeline import ETLPipeline
+from ETL.Extractor.extractors import DataExtractor
+from ETL.Transformer.transformers import DataTransformer
+from ETL.Loader.loaders import DataLoader
 
 __all__ = [
     "ETLConfig",

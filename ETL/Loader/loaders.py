@@ -1,5 +1,5 @@
 from pyspark.sql import DataFrame
-from config import ETLConfig
+from Config.config import ETLConfig
 import os
 
 

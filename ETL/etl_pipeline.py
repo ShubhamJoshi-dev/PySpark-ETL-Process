@@ -1,8 +1,8 @@
 from pyspark.sql import SparkSession
-from config import ETLConfig
-from extractors import DataExtractor
-from transformers import DataTransformer
-from loaders import DataLoader
+from Config.config import ETLConfig
+from ETL.Extractor.extractors import DataExtractor
+from ETL.Transformer.transformers import DataTransformer
+from ETL.Loader.loaders import DataLoader
 
 
 class SparkSessionManager:

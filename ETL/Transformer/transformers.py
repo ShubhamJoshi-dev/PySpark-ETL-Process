@@ -4,7 +4,7 @@ from pyspark.sql.functions import (
     upper, trim, to_date, year, month, when
 )
 from pyspark.sql.types import DoubleType
-from config import ETLConfig
+from Config.config import ETLConfig
 
 
 class DataCleaner:

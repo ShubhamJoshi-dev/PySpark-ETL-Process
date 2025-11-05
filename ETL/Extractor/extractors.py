@@ -1,5 +1,5 @@
 from pyspark.sql import SparkSession, DataFrame
-from config import ETLConfig
+from Config.config import ETLConfig
 
 
 class DataExtractor:

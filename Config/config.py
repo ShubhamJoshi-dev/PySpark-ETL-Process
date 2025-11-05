@@ -4,8 +4,8 @@ from dataclasses import dataclass
 @dataclass
 class ETLConfig:
     app_name: str = "Customer_Orders_ETL"
-    input_path: str = "data/input"
-    output_path: str = "data/output"
+    input_path: str = "../data/input"
+    output_path: str = "../data/output"
     master: str = "local[*]"
     shuffle_partitions: int = 4
     log_level: str = "ERROR"
